@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Centering */
+.center {
+	text-align: center;
+  }
+
 /* Basic */
 
 	html {
@@ -171,6 +176,7 @@ input, select, textarea {
 
 		h1 strong {
 			font-weight: 700;
+			color: #fff;
 		}
 
 	h2 {
@@ -1523,7 +1529,6 @@ input, select, textarea {
 		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		padding: 0.75em;
@@ -1673,7 +1678,6 @@ input, select, textarea {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		color: #fff !important;
@@ -1829,6 +1833,10 @@ input, select, textarea {
 
 				ul.social li a.fa-dribbble {
 					background-color: #C4376B;
+				}
+
+				ul.social li a.fa-envelope {
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a.fa-linkedin-in {
@@ -2033,6 +2041,7 @@ input, select, textarea {
 					background: #252525;
 				}
 
+
 /* Nav */
 
 	#nav {
@@ -2104,32 +2113,32 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	#top {
+	#main {
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
 
-		#top .image {
+		#main .image {
 			border-radius: 100%;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
-			#top .image img {
+			#main .image img {
 				border-radius: 100%;
 			}
 
-		#top h1 {
+		#main h1 {
 			margin-top: 0.35em;
 		}
 
-		#top p {
+		#main p {
 			font-size: 1.5em;
 			line-height: 1.75em;
 		}
 
-			#top p a {
+			#main p a {
 				color: inherit;
 			}
 
@@ -2207,11 +2216,11 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#main {
 				padding: 8em 0;
 			}
 
-				#top .image {
+				#main .image {
 					width: 24em;
 					height: 24em;
 					margin: 0;
@@ -2225,12 +2234,12 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#main {
 				text-align: center;
 				padding: 5em 0;
 			}
 
-				#top .image {
+				#main .image {
 					margin: 0 auto 2em auto;
 				}
 
@@ -2405,17 +2414,17 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#main {
 				padding: 3em 0;
 			}
 
-				#top .image {
+				#main .image {
 					width: 15em;
 					height: 15em;
 					margin-bottom: 0;
 				}
 
-				#top p {
+				#main p {
 					font-size: 1em;
 				}
 
